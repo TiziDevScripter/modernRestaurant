@@ -1,0 +1,44 @@
+.welcome{
+    background: linear-gradient(var(--color-4), var(--color-3));
+    width: 100%;
+    min-height: 90vh;
+    max-height: 90vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    place-items: center;
+}
+.welcome .section{
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+.welcome .section-left{
+    /* border-right: 1px dashed #ee0; */
+}
+.welcome .section-right{
+    padding: 1.5em 4em;
+}
+.welcome .section-right h1{
+    font-size: 2.4em;
+    position: relative;
+}
+.welcome .section-right h1:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ee0;
+    width: 100%;
+    height: 3px;
+}
+.welcome .section-right p{
+    font-size: 1.7em;
+    line-height: 1.4em;
+}
+.welcome img{
+    object-fit: contain;
+    display: block;
+    width: 100%;
+    max-height: 90vh;
+}

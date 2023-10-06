@@ -1,0 +1,15 @@
+:root{
+    --color-1: #ee0;
+    --color-2: #eee;
+    --color-3: #1a1a1a;
+    --color-4: #111;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    color: #eee;
+    background-color: var(--color-4);
+    font-family:Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,31 @@
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+@media (max-width: 400px) {
+    .wrapper{
+        margin-top: 200px;
+    }
+}
+
+.products{
+    background-color: #122;
+    width: 100%;
+}
+.products .title{
+    font-size: 2.5em;
+    text-align: center;
+}
+.products .meals{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 350px));
+    justify-content: center;
+    gap: 1.5em;
+}
+.products .meal-card{}
+.products .image{
+    max-width: 100%;
+}
+.products .name{}
+.products .description{}

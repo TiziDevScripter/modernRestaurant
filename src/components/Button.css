@@ -1,0 +1,10 @@
+.buttonr{
+    font-size: 1.2em;
+    border-radius: 20px;
+    padding:  .3em 1em;
+    border: none;
+    font-weight: 100;
+}
+.color-default{
+    background-color: var(--color-1);
+}
